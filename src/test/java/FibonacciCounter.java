@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 import src.main.java.*;
 import org.junit.Test;
 
-public class fibonacciCounter {
+public class FibonacciCounter {
 
 	@Test
 	public void testReset() {
