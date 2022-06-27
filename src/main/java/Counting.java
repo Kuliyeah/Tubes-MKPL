@@ -11,19 +11,19 @@ public class Counting {
 	
 	public Counter() {}
 		
-	public void tigaBilanganKelipatanLima(){
+	public void tigaBilanganKelipatanMulaiDariTiga(){
 		for (i=1;i<=3;i++) {
 			arr[0][i-1] = i*3;
 		}
 	}
 
-	public void empatBilanganBerurutanDariDua(){
+	public void empatBilanganGanjilDariSatu(){
 		for (i=1;i<=4;i++) {
 			arr[1][i-1] = i*2-1;
 		}
 	}
 		
-	public void limaBilanganKuadratDariBilanganAsliDari1(){
+	public void limaBilanganFaktorialDariSatu(){
 		int f=1;
 		for (i=1;i<=5;i++) {
 				f*=i;
@@ -31,7 +31,7 @@ public class Counting {
 		}
 	}
 
-	public void enamBilanganAlsliBerurutanMulaiDariTiga(){
+	public void enamBilanganAlsliMulaiDariSatu(){
 		for (i=1;i<=6;i++) {
 				arr[3][i-1] = i;
 		}
