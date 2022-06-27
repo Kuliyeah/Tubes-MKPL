@@ -1,6 +1,6 @@
 package src.main.java;
 
-class Fibonacci {
+public class Fibonacci {
 	public int i,j=0,k=0;
 	public String hasil = "";
 	
