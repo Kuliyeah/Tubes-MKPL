@@ -9,7 +9,7 @@ public class fibonacciCounter {
 	@Test
 	public void testReset() {
 		Fibonacci testFibo = new Fibonacci();
-		assertEquals(testFibo.fibonacciCounter(9).toString(), "1 2 3 5 8 13 21 34 55");
+		assertEquals(testFibo.fibonacciCounter(9), "1 2 3 5 8 13 21 34 55 ");
 	}
 
 }
