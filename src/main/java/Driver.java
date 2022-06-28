@@ -9,6 +9,7 @@ class Driver {
     System.out.println(fibo.fibonacciCounter(10));
     System.out.println(fibo.fibonacciCounter(40));
     System.out.println(fibo.fibonacciCounter(45));
+    System.out.println(fibo.fibonacciCounter(10));
 	}
 
 }
